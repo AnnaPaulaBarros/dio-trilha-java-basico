@@ -1,18 +1,31 @@
-## Getting Started
+# Projeto de Desafio: Padrão de Projeto Strategy - Robô
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto demonstra a aplicação do padrão de projeto **Strategy** em Java. O padrão Strategy permite definir uma família de algoritmos, encapsular cada um deles e torná-los intercambiáveis. Isso possibilita que o algoritmo varie independentemente dos clientes que o utilizam.
 
-## Folder Structure
+## Estrutura do Projeto
 
-The workspace contains two folders by default, where:
+- src/ 
+- ├── main/ 
+- │ ├── java/ 
+- │ │ └── one/ 
+- │ │ └── digitalinnovation/ 
+- │ │ └── strategy/ 
+- │ │ ├── Comportamento.java 
+- │ │ ├── ComportamentoAgressivo.java 
+- │ │ ├── ComportamentoDefensivo.java 
+- │ │ ├── ComportamentoNormal.java 
+- │ │ ├── Robo.java 
+- │ │ └── TesteStrategy.java
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Como Executar o Projeto
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. Clone este repositório para a sua máquina local.
+2. Importe o projeto em sua IDE de preferência (por exemplo, Eclipse ou IntelliJ).
+3. Navegue até a classe `TesteStrategy` e execute o método `main`.
 
-## Dependency Management
+## Contribuição
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Se você deseja contribuir com este projeto, sinta-se à vontade para fazer um fork e enviar um pull request.
+
+Inspirado nos exemplos fornecidos pela Digital Innovation One.
